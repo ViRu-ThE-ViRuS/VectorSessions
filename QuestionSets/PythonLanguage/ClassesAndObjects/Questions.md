@@ -15,4 +15,4 @@
 - `spend_money` (to blow that shit away!)
 - `__str__` (to print everything)
 
-**Make an object and call the various functions. They should all print something when called**
+**Make an object and call the various functions. They should all print something when called.**
