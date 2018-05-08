@@ -83,16 +83,3 @@ BigPapaPyscho.__str__()
 print("\n")
 
 #TheEnd.
-
-
-
-
-
-
-
-
-
-      
-
-
- 
