@@ -19,6 +19,8 @@ Numpy is one of the most widely used library for matrix math in the world with h
 
 - `numpy.linspace` -> function which generates and returns a new numpy array filled with linearly spaced `n` values between the start and end point passed as parameters. `n` is also passed as a parameter.
 
+- `numpy.append(<array appending to>, <object that you're appending>` -> function that populates an array. Just like the .append function like in python. 
+
 #### functions over an existing numpy array:
  - ndarray`.reshape` -> change the dimentionality/shape of the array
  - ndarray`.ndim` -> get the dimensions of the array
@@ -30,4 +32,5 @@ Numpy is one of the most widely used library for matrix math in the world with h
 ### Useful Resources and Links:
 - [Quick Tutorial](https://www.youtube.com/watch?v=8JfDAm9y_7s)
 - [Official Documentation](https://docs.scipy.org/doc/numpy-1.13.0/reference/index.html)
-- [Quick Start](https://docs.scipy.org/doc/numpy-1.13.0/user/quickstart.html)
+- [Quick Start](https://docs.scipy.org/doc/numpy-1.13.0/user/quickstart.html)   
+- Make sure you're checking the documentation when you can't remember the exact syntax for the above. 
