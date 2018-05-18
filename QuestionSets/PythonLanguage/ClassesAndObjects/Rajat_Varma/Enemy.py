@@ -23,7 +23,7 @@ class Enemy:
         self.attack_power += 50
 
     def attack(self):
-        Player.take_damage(Jason_Brody)
+        Jason_Brody.take_damage()
 
     def __str__(self):
         print("Age:", self.age)
