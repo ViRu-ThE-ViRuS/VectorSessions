@@ -1,35 +1,36 @@
-from Player import *
+from .Player import *
+
 
 class Enemy:
-    def __init__(self):
-        self.age = int()
-        self.movement_speed = int()
-        self.health = int()
-        self.attack_power = int()
+	def __init__(self):
+		self.age = int()
+		self.movement_speed = int()
+		self.health = int()
+		self.attack_power = int()
 
-    def move(self):
-        self.movement_speed += 5
+	def move(self):
+		self.movement_speed += 5
 
-    def stop(self):
-        self.movement_speed = 0
+	def stop(self):
+		self.movement_speed = 0
 
-    def take_damage(self):
-        self.health -= 50
+	def take_damage(self):
+		self.health -= 50
 
-    def heal(self):
-        self.health = 100
+	def heal(self):
+		self.health = 100
 
-    def booster(self):
-        self.attack_power += 50
+	def booster(self):
+		self.attack_power += 50
 
-    def attack(self):
-        Jason_Brody.take_damage()
+	def attack(self):
+		Jason_Brody.take_damage()
 
-    def __str__(self):
-        print("Age:", self.age)
-        print("Speed:", self.movement_speed)
-        print("Health:", self.health)
-        print("Attack Power:", self.attack_power)
+	def __str__(self):
+		print("Age:", self.age)
+		print("Speed:", self.movement_speed)
+		print("Health:", self.health)
+		print("Attack Power:", self.attack_power)
 
 
 Vaas_Montenegro = Enemy()
@@ -63,4 +64,3 @@ print("Booster")
 Vaas_Montenegro.booster()
 Vaas_Montenegro.__str__()
 print("--------------")
-

@@ -1,33 +1,33 @@
 class Player:
-    def __init__(self):
-        self.age = int()
-        self.movement_speed = int()
-        self.health = int()
-        self.money = int()
+	def __init__(self):
+		self.age = int()
+		self.movement_speed = int()
+		self.health = int()
+		self.money = int()
 
-    def move(self):
-        self.movement_speed += 10
+	def move(self):
+		self.movement_speed += 10
 
-    def stop(self):
-        self.movement_speed = 0
+	def stop(self):
+		self.movement_speed = 0
 
-    def take_damage(self):
-        self.health -= 10
+	def take_damage(self):
+		self.health -= 10
 
-    def heal(self):
-        self.health = 100
+	def heal(self):
+		self.health = 100
 
-    def make_money(self):
-        self.money += 1000
+	def make_money(self):
+		self.money += 1000
 
-    def spend_money(self):
-        self.money -= 1000
+	def spend_money(self):
+		self.money -= 1000
 
-    def __str__(self):
-        print("Age:", self.age)
-        print("Speed:", self.movement_speed)
-        print("Health:", self.health)
-        print("Money:", self.money)
+	def __str__(self):
+		print("Age:", self.age)
+		print("Speed:", self.movement_speed)
+		print("Health:", self.health)
+		print("Money:", self.money)
 
 
 Jason_Brody = Player()
